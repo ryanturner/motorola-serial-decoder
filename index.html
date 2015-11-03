@@ -10,7 +10,14 @@
 		motorolaSerialDecoder.controller( "DecoderCtrl", [ '$scope', function($scope) {
 			$scope.modelNumber = "";
 			$scope.model = function() {
-				return $scope.modelNumber.substring(0,3);
+				model = $scope.modelNumber.substring(0,3);
+				d3.tsv("https://ryanturner.github.io/motorola-serial-decoder/models.tsv", function(data) {
+					for(i=0;i < data.length; ++i) {
+						if(data[i]['id'].toUpperCase() == month.toUpperCase()) {
+							return data[i]['model'];
+						}
+					}
+				});
 			};
 			$scope.year = function() {
 				year = $scope.modelNumber.substring(4,5);
