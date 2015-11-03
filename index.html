@@ -1,1 +1,82 @@
-Hello, world.
+<html ng-app="motorolaSerialDecoder">
+<head>
+	<title>Moto Serial Number Decoder</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+	<script src="ui-bootstrap-tpls-0.14.3.min.js"></script>
+	<script>
+		var motorolaSerialDecoder = angular.module( "motorolaSerialDecoder", ['ui.bootstrap'] );
+		motorolaSerialDecoder.controller( "DecoderCtrl", [ '$scope', function($scope) {
+			$scope.modelNumber = "";
+			$scope.model = function() {
+				return $scope.modelNumber.substring(0,3);
+			};
+			$scope.year = function() {
+				year = $scope.modelNumber.substring(4,5);
+				d3.tsv("https://ryanturner.github.io/motorola-serial-decoder/years.tsv", function(data) {
+					for(i=0;i < data.length; ++i) {
+						if(data[i]['id'].toUpperCase() == year.toUpperCase()) {
+							return data[i]['year'];
+						}
+					}
+				});
+			};
+			$scope.month = function() {
+				month = $scope.modelNumber.substring(5,6);
+				d3.tsv("https://ryanturner.github.io/motorola-serial-decoder/months.tsv", function(data) {
+					for(i=0;i < data.length; ++i) {
+						if(data[i]['id'].toUpperCase() == month.toUpperCase()) {
+							return data[i]['month'];
+						}
+					}
+				});
+			};
+		}]);
+	</script>
+</head>
+ 
+<body ng-controller="DecoderCtrl">
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Moto Serial Number Decoder</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://github.com/ryanturner/motorola-serial-decoder">Source</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div class="container">
+		<div class="jumbotron">
+				<h1>Learn about your Motorola radio</h1>
+				<p>This tool provides manufactured year/month, as well as what model the serial is associated with.</p>
+			</div>
+		<div>
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+						<label class="col-md-2 control-label">Serial Number:</label>
+						<div class="col-md-4">
+								 <input type="text" ng-model="modelNumber"	class="form-control" value="{{modelNumber}}"/>
+						</div>
+				</div>
+			</form>
+		</div>
+		<div id="results">
+			<h1>Results</h1>
+			<span>Model: {{ model() }}, month: {{ month() }}, year: {{ year() }}</span>
+		</div>
+	</div>
+</body>
+</html>

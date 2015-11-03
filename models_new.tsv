@@ -1,0 +1,334 @@
+001 CDM1550LS+ 700/200 UHF & VHF
+004 EX500 / 600XLS UHF & VHF
+005 PR860 UHF / VHF / Low Band
+008 HT1250LS+ UHF & VHF 200 or 700
+018 CP150 / 200 UHF & VHF
+019 CM200 / 300 UHF & VHF
+019 PM400 UHF & VHF
+027 BPR40
+035 Portable
+037 XPR6500
+038 XPR4550
+038 Mobile
+077 Paging
+084 Paging
+085 Paging
+088 Triton MP+ H5111A
+088 Triton MP100 H5126A
+103 CDM750 Low Band / UHF / VHF
+105 DP3441
+108 Astro Saber Europe
+109 CDM1250 UHF / VHF / Low Band
+112 Infrastructure
+114 Infrastructure
+117 Infrastructure
+118 Infrastructure
+119 Paging
+124 Infrastructure
+126 XPR7850
+129 Infrastructure
+131 Infrastructure
+135 Infrastructure
+139 Data
+140 Infrastructure
+142 TRNK MCS2000 DUPLEX
+144 Infrastructure
+147 Infrastructure
+148 Infrastructure
+152 Infrastructure
+153 HIGH PERF DATA SUBSCRIBER
+154 Mobile
+159	Radius GM300
+164 M1225-LS
+169 Paging
+170 Data
+171 Mobile Video Enforcer
+174 GP300
+176 XTL1500 REBANDING
+177 Infrastructure
+183 Portable
+191 MTX820s / MTX810 PRIVACY PLUS
+192 Infrastructure
+201 KVL 3000 Plus Keyloader
+204 RENAISSANCE OPEN
+205 XTS2500 7/800, 900
+205 XTS2250 (7/800 MHz) / 700/800 STINGRAY
+207 Digital Vehicular Repeater VHF/UHF/700/800
+214 Infrastructure
+218 Quantro
+221 CLEAR SPECTRA (LO/MID) C
+225 Infrastructure
+228 Infrastructure
+229 Infrastructure
+235 Infrastructure
+241 Data
+243 Infrastructure
+244 Infrastructure
+246 Commercial Tier Portable
+253 Paging
+256 SABER/ASTRO ACCY
+257 Infrastructure
+261 General Test Equipment
+262 General Test Equipment
+265 Infrastructure
+270 XTS2500 REBANDING
+270 Spectra 800 E7
+273 Infrastructure
+274 Infrastructure
+275 Infrastructure
+276 XTL5000 CONSOLETTE
+277 Infrastructure
+280 Infrastructure
+281 Infrastructure
+282 Micom SSB 1000W Linear
+287 PAC-RT,VRS
+296 Data
+301 Infrastructure
+305 SPECIAL ENCRYPT PORTABLE
+307 Infrastructure
+310 Astro Saber
+311 Data
+312 Data
+314 Data
+320 XTS5000 136-174, UHF R2
+322 Infrastructure
+326 XTS3000
+329 Infrastructure
+332 CONV. FLASHPORT SUBSCR.
+335 Infrastructure
+336 Astro Saber
+343 ML900
+346	Radius GM1200
+351 Infrastructure
+355 MT2000 UHF / VHF / 800
+356 Mobile
+360 Infrastructure
+372 Infrastructure
+374 Astro Spectra Digital Consolette UHF / VHF / 800
+376 Visor
+377 Smartnet II controler
+381 Infrastructure
+383	Advisor pager
+388 MSF5000(Conventional)
+398 MSF5000(trunked)
+401 Infrastructure
+402 HT1000 800 / UHF / VHF
+402 JT1000 UHF & VHF
+403 Infrastructure
+404 Infrastructure
+405 Infrastructure
+407 XTS2250 Starpoint Microwave
+407 XTS2500 UHF & VHF
+409 Infrastructure
+411 CLEAR SPECTOR (BOX) CONV
+412 Astro Conv Spectra
+415 R2000
+416 Infrastructure
+417 Infrastructure
+422 CT150 / 250 / 450 / 450LS UHF & VHF
+423 Data
+424 Securenet Keyloader
+425 Infrastructure
+426 Astro Saber
+426 APX4000
+428	Maxtrac 300
+430 FLASHPORT SFTWR UPGRADE
+431 Micom SSB
+432 PC MTS2000 CONVENTIONAL
+432 MTS2000 VHF / UHF / 800 / 900
+436 Mobile
+437 OEM SUBSCRIBER
+438 Maxtrac 800 Type I/II
+442 PR400 UHF & VHF
+443 Infrastructure
+446 Mobile
+448 Quantar, Digital Data
+457 Infrastructure
+463 Spirit
+465 LTS2000 TRNK
+465 ASTRO SABER
+466 MTS2000 800/ MTS2000 TRUNKED UHF 450-512
+469 Infrastructure
+470 PORTABLE FASCINATOR
+471 Analog Saber / SABER II VHF
+471 APX4500
+474 Infrastructure
+475 P1225
+475 XPR4830
+476 Mobile
+478 SLR5700 REPEATER
+481 MAXTRAC SMARTNET
+481 APX6000
+482 Infrastructure
+483 Syntor X
+484 Infrastructure
+484 DR3000
+493 Mobile
+494 ASTRO Spectra TRUNKED ASTRO MOBILE
+495 Infrastructure
+496 R2670 / R2600 system analyzer
+500 XTL5000 / XTS4250 (7/800 MHz)
+501 MICOM
+503 Data
+504 Infrastructure
+508 Data
+509 Quantar, A25 Rptr
+511 MTX8000 / 9000 / 838 / MTS2000
+511 XPR5350
+511 DM4601
+512 MTR2000
+512 MTR3000
+513 Infrastructure
+514 XTL2500 700/800
+516 Infrastructure
+518 XTL2500 UHF & VHF
+523 Data
+524 Infrastructure
+525 Infrastructure
+526 Astro Digital Spectra Plus Mobile UHF / VHF / 800
+527 KRAMER
+527 APX6500
+529 SPECTRA (800 MHz)
+533 Syntor Conv x / 9000
+536 MAXTRAC 900 MHZ/SN
+537 Quantar, A25 Rptr
+538 Mobile
+546 Portable
+548 Infrastructure
+562 PC-CCI ASTRO PORTABLE
+563 MaxTrac 800
+563 XPR4350
+564 Portable
+566 Mobile
+570 Infrastructure
+570 PORT REPEATER,SABERX,SVA
+571 SABER II UHF
+574 Infrastructure
+577 Portable
+579 MTX Classic
+579 APX8000
+581 SPECTRA (analog) SECURE TRUNK SPECTRA
+582 MSR2000
+584 Paging
+585 XTL5000 UHF/VFH
+586 Infrastructure
+589 Data
+590 Infrastructure
+593 Infrastructure
+594	MC2100
+595 STR3000 Base Radio
+602 PFD3000
+604 Analog SPECTRA (800 MHz)
+609 Infrastructure
+611 Infrastructure
+617 CLEAR SPECTRA (HIGH) CON
+620 PC-XTS3000
+620 XTS3000 800
+621 SUBSCRIBER CARROT APC
+623 MCS2000
+624 XTL2500 REBANDING
+624 Astro Spectra Secure UHF
+626 STX Portables
+626 PR1500 UHF & VHF
+629 Data
+632 Infrastructure
+642 MTX850LS 800
+643 Infrastructure
+646	Minitor II pager
+647 Infrastructure
+649 HT600
+652 MTX8090 PRIVACY PLUS
+654 Mackinaw Covert Portable
+655 Mackinaw Portable
+655 APX7000
+656 Mackinaw Mobile
+656 APX7500
+657 XTS1500 REBANDING
+671 Mobile
+672 HT750 UHF / VHF / Low Band
+672 Pro 5150 / 5350
+672 HT1250 UHF
+673 MTX900 Pirvacy Plus
+676 Infrastructure
+677 Infrastructure
+677 Syntor
+678 STX Portables / LTS2000
+679 Portable
+680 Quantar, Digital Capable
+681 SMARTZONE MAXTRAC
+682 SM50
+682 SL7950
+684 Infrastructure
+687 MT1000
+687 MT1500 800 UHF & VHF
+687 XTS1500 700/800 UHF & VHF
+687 XTS2500 7/800
+689 Data
+702 Mobile
+703 Mobile
+704 Infrastructure
+707 Data
+708 Infrastructure
+710 P1225-LS
+711 Nucleus Infrastructure
+720 Portable
+721 XTS5000 700/800
+722 MCS2000 UHF 450-512
+726 MTX800 / MTX820
+726 XTL1500 UHF / VHF / Mid Power
+729 Infrastructure
+732 Infrastructure
+736 Data
+737 Mobile
+740 MIP5000
+742 Mobile
+743 Infrastructure
+747 Infrastructure
+749 Pro 7150
+749 HT1250 / LS UHF / VHF / Low Band
+749 MTX8250LS 800
+749	MT1000 UHF 403-470
+751	MT1000 VHF 136-174
+752 Portable
+755 SABER I UHF SP
+756 SABER III VHF SP
+757 SABER III UHF SP
+760 LCS2000
+761 ASTRO Spectra Consolette
+761 APX7500 Consolette
+775 XTL1500 700/800
+776 MaraTrac Low Band / UHF / VHF
+777 SP50
+777 XPR6300 UHF
+777 XPR6580
+778	Radius M216/14
+779 GP350
+780 R1225
+790 MAXTRAC SMARTNET UV
+792 CDM1550 Low Band
+806 SL7590
+808 Mobile
+818 SPECTRA RR-CLEANCAB
+833 SPECTRA RR-MCP
+836	MSR2000
+837 800 MHZ JSMR PORTABLE
+839 Paging
+841 HT1550XLS UHF & VHF
+855 Data
+863 MCX1000
+866 Portable
+867 GTX 800 / 900 800
+867 XPR3500 UHF
+869 M1225
+870 Infrastructure
+871 XPR7550 UHF
+872 DP4801
+877 Infrastructure
+879 Infrastructure
+891 HTX
+921 MTX8250 / Pro 7550 / Pro 7750
+921 MTX850 / 8250
+921 MTX950 / 9250 900
+922 Commercial Tier Mobile
+977 XPR 6300
+977 XPR 6850
