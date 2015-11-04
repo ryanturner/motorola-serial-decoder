@@ -57,6 +57,7 @@
 					}
 				}
 			};
+			
 		}]);
 	</script>
 </head>
@@ -104,6 +105,9 @@
 				<li><strong>Model:</strong> {{ model() }}</li>
 				<li><strong>Manufactured on:</strong> {{ month() }} of  {{ year() }}</li>
 			</ul>
+			<uib-alert type="{{alert.type}}" ng-hide="modelNumber.toUpperCase() != '123ABC1234'">
+				<span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span> This radio is likely either a depot discard, was previously damaged beyond repair, or was stolen and given a "blank" serial number.
+			</uib-alert>
 		</div>
 	</div>
 </body>
