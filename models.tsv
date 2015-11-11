@@ -193,8 +193,7 @@ id	model
 571	SABER II UHF
 574	Infrastructure
 577	Portable
-579	MTX Classic
-579	APX8000
+579	MTX Classic, APX8000
 581	SPECTRA (analog) SECURE TRUNK SPECTRA
 582	MSR2000
 584	Paging
@@ -224,10 +223,8 @@ id	model
 649	HT600
 652	MTX8090 PRIVACY PLUS
 654	Mackinaw Covert Portable
-655	Mackinaw Portable
-655	APX7000
-656	Mackinaw Mobile
-656	APX7500
+655	Mackinaw Portable, APX7000
+656	Mackinaw Mobile, APX7500
 657	XTS1500 REBANDING
 671	Mobile
 672	HT750 UHF / VHF / Low Band, Pro 5150 / 5350, HT1250 UHF
