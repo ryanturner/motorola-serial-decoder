@@ -165,8 +165,7 @@ id	model
 508	Data
 509	Quantar, A25 Rptr
 511	MTX8000 / 9000 / 838 / MTS2000, XPR5350, DM4601
-512	MTR2000
-512	MTR3000
+512	MTR2000, MTR3000
 513	Infrastructure
 514	XTL2500 700/800
 516	Infrastructure
@@ -175,8 +174,7 @@ id	model
 524	Infrastructure
 525	Infrastructure
 526	Astro Digital Spectra Plus Mobile UHF / VHF / 800
-527	KRAMER
-527	APX6500
+527	KRAMER, APX6500
 529	SPECTRA (800 MHz)
 533	Syntor Conv x / 9000
 536	MAXTRAC 900 MHZ/SN
@@ -185,8 +183,7 @@ id	model
 546	Portable
 548	Infrastructure
 562	PC-CCI ASTRO PORTABLE
-563	MaxTrac 800
-563	XPR4350
+563	MaxTrac 800, XPR4350
 564	Portable
 566	Mobile
 570	Infrastructure, PORT REPEATER,SABERX,SVA
