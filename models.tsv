@@ -9,7 +9,6 @@ id	model
 035	Portable
 037	XPR6500
 038	XPR4550
-038	Mobile
 077	Paging
 084	Paging
 085	Paging
@@ -50,8 +49,7 @@ id	model
 192	Infrastructure
 201	KVL 3000 Plus Keyloader
 204	RENAISSANCE OPEN
-205	XTS2500 7/800, 900
-205	XTS2250 (7/800 MHz) / 700/800 STINGRAY
+205	XTS2500 7/800, 900, XTS2250 (7/800 MHz) / 700/800 STINGRAY
 207	Digital Vehicular Repeater VHF/UHF/700/800
 214	Infrastructure
 218	Quantro
@@ -70,8 +68,7 @@ id	model
 261	General Test Equipment
 262	General Test Equipment
 265	Infrastructure
-270	XTS2500 REBANDING
-270	Spectra 800 E7
+270	XTS2500 REBANDING, Spectra 800 E7
 273	Infrastructure
 274	Infrastructure
 275	Infrastructure
@@ -130,8 +127,7 @@ id	model
 428	Maxtrac 300
 430	FLASHPORT SFTWR UPGRADE
 431	Micom SSB
-432	PC MTS2000 CONVENTIONAL
-432	MTS2000 VHF / UHF / 800 / 900
+432	PC MTS2000 CONVENTIONAL, MTS2000 VHF / UHF / 800 / 900
 436	Mobile
 437	OEM SUBSCRIBER
 438	Maxtrac 800 Type I/II
@@ -246,8 +242,7 @@ id	model
 720	Portable
 721	XTS5000 700/800
 722	MCS2000 UHF 450-512
-726	MTX800 / MTX820
-726	XTL1500 UHF / VHF / Mid Power
+726	MTX800 / MTX820, XTL1500 UHF / VHF / Mid Power
 729	Infrastructure
 732	Infrastructure
 736	Data
